@@ -1,0 +1,17 @@
+{
+  "name": "naislang",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "ts-pattern": "^5.0.6"
+  }
+}
